@@ -11,10 +11,11 @@ import PackageDescription
 
 let package = Package(
     name: "IsoCountryCodes",
-    platforms: [.iOS(.v9),
-                .macOS(.v10_12),
-                .watchOS(.v6),
-                .tvOS(.v10)],
+    platforms: [.macOS(.v10_13),
+                .iOS(.v11),
+                .tvOS(.v11),
+                .watchOS(.v7)
+                ],
     products: [
         .library(
             name: "IsoCountryCodes",
